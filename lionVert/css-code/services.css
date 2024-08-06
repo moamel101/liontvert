@@ -1,0 +1,95 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Logo Styling */
+.logo img {
+    max-width: 100px;
+    height: 50px;
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 20px;
+    background-color: #e0f2e9; /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section img {
+    width: 100%; /* Set images to be responsive */
+    max-width: 300px; /* Limit the maximum width of images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: #4CAF50; /* Green color for headings */
+}
+
+.section p {
+    margin: 0 0 15px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    width: 100%;
+}
